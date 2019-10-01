@@ -43,4 +43,14 @@ func main() {
 
 	fmt.Println("The result of the work done is ", result)
 
+	// name, age := "Harish" will throw error as initialization needs to be done for name and age both
+
+	// Multiple assignment on the variables
+	// This kinda multiple assignment is only allowed if there atleast one new variable declared in the same
+	a,b := 80,90 // a and b are both new
+	fmt.Println(" the values for a and b" ,a , b)
+	b,c := 90,100 // c is new
+	fmt.Println(" the values for b and c" ,b , c)
+
+
 }
