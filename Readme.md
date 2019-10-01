@@ -5,8 +5,10 @@ b) GOBIN -> $GOPATH/bin
 
 Following are the commands :
 
-go run src/*.go -> all the go files which belong to the main package are executed.
-go run src/<xyz>/*.go -> all the go files which belong to the main package residing the xyz directory is executed
-go install src/calculator/*.go will create calculator.exe for Windows and will be stored in GOBIN folder.
+a) go run src/*.go -> all the go files which belong to the main package are executed.
+
+b) go run src/<xyz>/*.go -> all the go files which belong to the main package residing the xyz directory is executed
+
+c) go install src/calculator/*.go will create calculator.exe for Windows and will be stored in GOBIN folder.
 
  
