@@ -12,12 +12,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="go.mod" pinned="false" current-in-tab="true">
+      <file leaf-file-name="go.mod" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/go.mod">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/variables.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/hello.go" />
         <option value="$PROJECT_DIR$/hello.go" />
+        <option value="$PROJECT_DIR$/src/variables.go" />
       </list>
     </option>
   </component>
@@ -103,6 +116,11 @@
             <path>
               <item name="go poc" type="b2602c69:ProjectViewProjectNode" />
               <item name="go poc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go poc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go poc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569792996383</updated>
-      <workItem from="1569793001691" duration="1078000" />
+      <workItem from="1569793001691" duration="1312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1078000" />
+    <option name="totallyTimeSpent" value="1312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3226" height="1746" extended-state="6" />
@@ -332,6 +350,16 @@
         <state relative-caret-position="165">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variables.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
