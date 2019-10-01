@@ -11,8 +11,10 @@ func main() {
 
 	fmt.Println("Minimum age is ", MinAge)
 
-	const DefaultName = "XYZ"
+	const DefaultName  = "XYZ"
 	type myString string
+
+	// This assignment is possible because DefaultName is untyped constant. It wont work if DefaultName is typed.
 	var name myString = DefaultName
 	someOtherName := "DEF"
 
