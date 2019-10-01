@@ -52,5 +52,12 @@ func main() {
 	b,c := 90,100 // c is new
 	fmt.Println(" the values for b and c" ,b , c)
 
+	//Conversion (explicit) is needed to perform an operation between 2 variables of different data types
+	i := 1
+	var j float32 = 3.48
+	k := j + float32(i)
+
+	fmt.Println("Sum is ",k)
+
 
 }
