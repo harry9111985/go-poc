@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="399639fa-10e4-40fe-a69a-f7cede122c9e" name="Default" comment="" />
+    <list default="true" id="399639fa-10e4-40fe-a69a-f7cede122c9e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/variables.go" afterPath="$PROJECT_DIR$/src/variables.go" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="variables.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/variables.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="726">
+              <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -274,12 +276,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569792996383</updated>
-      <workItem from="1569793001691" duration="1312000" />
+      <workItem from="1569793001691" duration="1950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1312000" />
+    <option name="totallyTimeSpent" value="1950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3226" height="1746" extended-state="6" />
@@ -355,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/variables.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="726">
+          <caret line="22" column="68" lean-forward="false" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>

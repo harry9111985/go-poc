@@ -19,5 +19,10 @@ func main() {
 	var size = "XL"
 	fmt.Println("The size is ", size)
 
+	//Multiple variables for the same type can be initialized in the same line. As they are initialized a type is not needed
+	// and implicitly inferred by go based on the initialized value.
+	var firstName,lastName = "Harish","Subramaniam"
+
+	fmt.Println("the Full name is ",firstName,lastName)
 
 }
