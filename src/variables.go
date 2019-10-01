@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 
+	fmt.Println("Go - Variables exercise : start")
 	// Declaration "var <var-name> <type>
 	var age int
 
@@ -58,6 +59,8 @@ func main() {
 	k := j + float32(i)
 
 	fmt.Println("Sum is ",k)
+
+	fmt.Println("Go - Variables exercise : end")
 
 
 }
