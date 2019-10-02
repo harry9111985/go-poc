@@ -28,8 +28,28 @@ func main() {
 	//Copy function to garbage collect the underlying array
 	employeeIdsNew := employeeIds[0:2]
 	employeeIdsNew[0] = 1
-	employeeIdsNewCopy := make([] int,len(employeeIdsNew),cap(employeeIdsNew))
-	copy(employeeIdsNewCopy,employeeIdsNew)
-	fmt.Println("Slice copy created out of the slice to free the underlying array of employeeIds ",employeeIdsNewCopy)
+	employeeIdsNewCopy := make([] int, len(employeeIdsNew), cap(employeeIdsNew))
+	copy(employeeIdsNewCopy, employeeIdsNew)
+	fmt.Println("Slice copy created out of the slice to free the underlying array of employeeIds ", employeeIdsNewCopy)
 
+	//Variadic functions
+	fmt.Println("Sum with 2 values ", sumWithDefaultValue(1, 1, 2))
+	fmt.Println("Sum with 0 values", sumWithDefaultValue(1))
+
+	//Passing a slice to a variadic function using ... notation
+	fmt.Println("Sum of 3 values ",sumWithDefaultValue(1, []int {1,2,3}...))
+}
+
+func sumWithDefaultValue(defaultVal int, values ...int) int {
+	if len(values) == 0 {
+		return defaultVal
+	} else {
+		sum := 0
+		// Note : The variable number of arguments in the variadic function is converted to a slice implicitly
+		// Hence using variadic functions creation of an additional slice can be avoided.
+		for _, v := range values {
+			sum += v
+		}
+		return sum
+	}
 }
